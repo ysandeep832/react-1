@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+ .parentDiv{
+  border: 1px solid black;
+  background-color: black;
+  height: 200px;
+  display:flex;
+  justify-content: space-around;
+ }
+ a,h4{
+  color: white;
+  text-decoration: none;
+ }
+h4:hover{
+  color:red;
+ }
+div1:hover{
+  color: green;
+}
+.number{
+  color: white;
+}
