@@ -1,0 +1,31 @@
+
+
+.cardd{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 60px;
+    gap: 20px;
+}
+
+.cards{
+    width: 30.33%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+   
+}
+
+.cards:hover{
+    scale: 1.1;
+    }
+    .spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .cards:hover{
+        transform:rotate(180deg)
+    }

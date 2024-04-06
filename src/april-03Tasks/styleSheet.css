@@ -1,0 +1,21 @@
+
+button{
+    background-color: greenyellow;
+    color: red;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+.card{
+    background-color:goldenrod;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
