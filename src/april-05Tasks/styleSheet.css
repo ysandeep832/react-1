@@ -1,0 +1,21 @@
+.totalcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    gap: 20px;
+    /* transform:skw(1.05); */
+    
+
+}
+.cards{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    background-color: aliceblue;
+       
+}
+.cards:hover{
+    transform: scale(1.05);
+}

@@ -13,7 +13,7 @@ const { Component } = require("react");
     dummyProducts:[]
 }
      
-  componentDidMount(){this.fetching()};
+  // componentDidMount(){this.fetching()};
    fetching=async()=>{
    const  productRel=await axios.get("https://dummyjson.com/products")
  
