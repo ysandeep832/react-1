@@ -1,0 +1,36 @@
+
+.totalMap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+
+}
+.cardss{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    background-color:aliceblue;
+
+    
+}
+.totalAmt{
+  color: blue;
+  border: 2px solid red;
+  border-radius: 7px;
+  width: 250px;
+  text-align: center;
+
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.focus:focus{
+    background-color: brown;
+    color: white;
+}
+
