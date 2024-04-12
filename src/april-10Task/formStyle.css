@@ -1,0 +1,21 @@
+
+
+
+tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.formm{
+    border: 1px solid black;
+    width: 350px;
+    background-color: aqua;text-align: center;border-radius: 10px;
+}
+.totalReturn{
+    display: grid;
+    justify-content: center;
+    align-items: ;
+}
+input{
+    border-radius: 10px;
+}
