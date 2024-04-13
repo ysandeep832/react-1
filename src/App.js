@@ -1,22 +1,19 @@
-// import Footers from './footer';
+
 import './App.css';
-// import ProductAddAndTotal from './april-05Tasks/totalAndPrice';
-// import ProductsRange from './april-06Task/filterRange';
-// import CreateUpdate from './april-08Task/createUpdate';
-import FormValidation from './april-10Task/formtTask';
+// import {Sandeep} from './april-12Tasks/controlledComp';
+import Controlled1 from './april-12Tasks/controlledEx1';
+
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Footers/> */}
-      {/* <ProductAddAndTotal/> */}
-      {/* <ProductsRange/> */}
-      {/* <CreateUpdate/> */}
-      <FormValidation/>
 
-     
+<Controlled1></Controlled1>
+     {/* <Sandeep/> */}
     </div>
   );
 }
