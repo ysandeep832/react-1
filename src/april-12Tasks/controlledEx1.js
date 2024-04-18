@@ -1,6 +1,8 @@
 import {useState} from "react"
 import "./controllStyle.css"
 
+    // controlled component (form) by using single useState
+
 const Controlled1=()=>{
     const [userName,setUserName]=useState("")
     const [email,setEmail]=useState("")
@@ -87,3 +89,6 @@ const Controlled1=()=>{
     )
 }
 export default Controlled1
+
+
+

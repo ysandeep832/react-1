@@ -1,0 +1,27 @@
+
+
+.card{
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.btn2:hover{
+    background-color: blue;
+    color: white;
+}
+.btn1,.btn2{
+    width: 150px;
+}
+
+.parent{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
